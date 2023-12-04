@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Rosario:wght@700&display=swap');
+
+// font-family: 'DM Sans', sans-serif;
+// font-family: 'Rosario', sans-serif;
+// =============== Font famaly ===============
+$dmSans: 'DM Sans', sans-serif;
+$rosario: 'Rosario', sans-serif;
+
+// =============== Color ===============
+
+$color-primary: #222222;
+$color-secondary: #555555;
+$color-black: #000000;
+$color-white: #ffffff;
+
+// =============== Default styles ===============
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: indianred;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  object-fit: contain;
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+}
+
+// =============== Main styles ===============
+body {
+  font-family: $dmSans;
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 166.667%;
+  color: $color-secondary;
+}
+
+.wrapper {
+}
+.header {
+  // .header_logo
+
+  &_logo {
+  }
+
+  // .header_block
+
+  &_block {
+  }
+
+  // .header_btn
+
+  &_btn {
+  }
+
+  // .header_link
+
+  &_link {
+  }
+}
+.container {
+}
+.header-wrapper {
+}
+.nav {
+}
+.menu {
+  // .menu_item
+
+  &_item {
+  }
+
+  // .menu_link
+
+  &_link {
+  }
+}
+.form {
+}
+.search {
+}
+.btn {
+}
+.cart {
+}
+.link {
+  // .link_bg--green
+
+  &_bg--green {
+  }
+}

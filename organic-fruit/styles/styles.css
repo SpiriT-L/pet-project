@@ -159,3 +159,153 @@ body {
   background-color: #09a66d;
   color: #ffffff;
 }
+
+.inner-title {
+  color: #222222;
+  font-family: "Rosario", sans-serif;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.625rem;
+}
+
+.hero {
+  background-color: #f3fbf8;
+}
+.hero__inner_wrapper {
+  background-image: url(../images/fresh-melientha-suavis-pierre-leaves-white-surface.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 5.81rem 0 2.05rem 0;
+  background-size: 34.45525rem 23.99806rem;
+}
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero_img {
+  position: relative;
+  width: 53.88rem;
+}
+.hero_link {
+  position: absolute;
+  top: -18.63px;
+  right: 25%;
+  width: 176px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #222222;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.875rem;
+  cursor: pointer;
+}
+.hero_link::after {
+  content: "";
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #09a66d url(../images/arrow-right.svg) no-repeat center;
+  right: 0;
+  top: 50%;
+}
+.hero__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 250px;
+}
+.hero__item {
+  min-width: 184px;
+  margin: 0px 0px 30px 0px;
+  color: #000000;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 17px 33px 17px 113px;
+  cursor: pointer;
+}
+.hero__item:nth-last-child(1) {
+  margin: 0px 0px 0px 0px;
+}
+.hero__item > span {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  margin: 0.25rem 0 0 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.hero__item-user {
+  background-color: #ffffff;
+  background-image: url(../images/Group_5246.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 33px;
+}
+.hero__item-reviews {
+  background-color: #ffffff;
+  background-image: url(../images/Group_5249.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 33px;
+}
+.hero__item-item {
+  background-color: #ffffff;
+  background-image: url(../images/Group_5247.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 33px;
+}
+.hero__title {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.hero__desc {
+  max-width: 39.81rem;
+  text-align: center;
+  margin: 0 auto 3.56rem auto;
+}
+
+.innet-desc {
+  color: #555555;
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}

@@ -19,7 +19,7 @@ $color-bg-mint: #f3fbf8;
 
 // =============== Default styles ===============
 * {
-  margin: 0 auto;
+  // margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -30,6 +30,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+figure {
+  margin: 0 auto;
 }
 
 img {
@@ -267,7 +271,7 @@ body {
     // align-items: flex-end;
     justify-content: center;
     padding: 17px 33px 17px 113px;
-    &>span {
+    & > span {
       font-size: 1.125rem;
       line-height: 1.875rem;
       margin: 0.25rem 0 0 0;
@@ -276,7 +280,7 @@ body {
     cursor: pointer;
   }
 
-  &__item-user{
+  &__item-user {
     background-color: $color-white;
     background-image: url(../images/Group_5246.svg);
     background-repeat: no-repeat;
@@ -285,7 +289,7 @@ body {
     // padding: 0px 24px 0px 0px;
   }
 
-  &__item-reviews{
+  &__item-reviews {
     background-color: $color-white;
     background-image: url(../images/Group_5249.svg);
     background-repeat: no-repeat;
@@ -293,7 +297,7 @@ body {
     background-position-x: 33px;
   }
 
-  &__item-item{
+  &__item-item {
     background-color: $color-white;
     background-image: url(../images/Group_5247.svg);
     background-repeat: no-repeat;
@@ -324,4 +328,192 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.875rem;
+}
+
+.service {
+  padding: 140.89px 0px 166.11px 0px;
+
+  // .service__wrapper
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+
+  // .service__content
+
+  &__content {
+    width: 670px;
+    padding-bottom: 32px;
+    position: relative;
+
+    // .service__content_title
+
+    &_title {
+      margin-bottom: 20px;
+    }
+
+    // .service__content_desc
+
+    &_desc {
+      width: 637.01px;
+      margin-bottom: 16px;
+    }
+
+    // .service__content_list
+
+    &_list {
+      width: 560px;
+    }
+
+    // .service__content_item
+
+    &_item {
+      position: relative;
+      padding: 40px 59.7px 40px 164px;
+      margin: 0px 0px 20px 0px;
+      width: 500px;
+      height: 160px;
+      background: $color-white;
+      cursor: pointer;
+      transition: 0.3s linear;
+      &:nth-last-child(1) {
+        margin: 0px 0px 0px 0px;
+      }
+      &:hover {
+        background: $color-bg-mint;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background: $color-bg-mint;
+        border-radius: 50%;
+        transform: translateY(-50%);
+        top: 50%;
+        left: 59.47px;
+        transition: 0.3s linear;
+      }
+      &:hover::before {
+        background: $color-white;
+      }
+    }
+  }
+
+  // .service__icon
+
+  &__icon-delivery {
+    background: url(../images/delivery-man.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+  }
+
+  &__icon-order {
+    background: url(../images/shopping.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 79px;
+    transform: translateY(-50%);
+  }
+
+  &__icon-service {
+    background: url(../images/fast-time.svg) no-repeat center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 79px;
+    transform: translateY(-50%);
+  }
+
+  // .service__item-title
+
+  &__item-title {
+    color: $color-primary;
+    font-family: $dmSans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  // .service__item-text
+
+  &__item-text {
+    color: $color-secondary;
+    font-family: $dmSans;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    display: block;
+  }
+
+  // .service__img
+
+  &__img {
+    width: 569px;
+    height: 569px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/elips-fruit.png), url(../images/Ellipse-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom 80px center, right 0 bottom 0;
+    background-size: 398px, contain;
+    padding-top: 31px;
+    & figure{
+      width: 354px;
+      animation: movImge 2s linear infinite ;
+    }
+  }
+}
+
+.arrow-down {
+  position: absolute;
+  width: 15px;
+  height: 34px;
+  background: url(../images/arrow-down.svg) no-repeat center;
+  bottom: 0;
+  left: 35%;
+  cursor: pointer;
+  animation: move 1.5s linear infinite;
+}
+
+
+@keyframes move {
+  0% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+
+@keyframes movImge {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

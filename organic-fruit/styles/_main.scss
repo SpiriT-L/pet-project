@@ -15,6 +15,7 @@ $color-white: #ffffff;
 
 // =============== color bacground  ===============
 $color-bg-green-lt: #09a66d;
+$color-bg-green-lt-op: #09a66d0d;
 $color-bg-mint: #f3fbf8;
 
 // =============== Default styles ===============
@@ -22,6 +23,7 @@ $color-bg-mint: #f3fbf8;
   // margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 a {
   color: inherit;
@@ -65,6 +67,7 @@ body {
 
 .wrapper {
   max-width: 1440px;
+  margin: 0 auto;
 }
 .header {
   padding: 50px 0 43px 0;
@@ -211,35 +214,11 @@ body {
   }
 
   // .hero_link
-
-  &_link {
+  &__link {
     position: absolute;
-    top: -18.63px;
+    top: -28.63px;
     right: 25%;
-    width: 176px;
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: $color-primary;
-    font-family: $dmSans;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.875rem;
-    cursor: pointer;
-    &::after {
-      content: '';
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      background: $color-bg-green-lt url(../images/arrow-right.svg) no-repeat
-        center;
-      right: 0;
-      top: 50%;
-    }
   }
-
   // .hero_list
 
   &__list {
@@ -320,14 +299,14 @@ body {
     margin: 0 auto 3.56rem auto;
   }
 }
-.innet-desc {
+.inner-desc {
   color: $color-secondary;
-  text-align: center;
+
   // font-family: DM Sans;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.875rem;
+  line-height: 30px;
 }
 
 .service {
@@ -470,14 +449,15 @@ body {
     height: 569px;
     display: flex;
     justify-content: center;
-    background-image: url(../images/elips-fruit.png), url(../images/Ellipse-bg.png) ;
+    background-image: url(../images/elips-fruit.png),
+      url(../images/Ellipse-bg.png);
     background-repeat: no-repeat;
     background-position: bottom 80px center, right 0 bottom 0;
     background-size: 398px, contain;
     padding-top: 31px;
-    & figure{
+    & figure {
       width: 354px;
-      animation: movImge 2s linear infinite ;
+      animation: movImge 2s linear infinite;
     }
   }
 }
@@ -492,7 +472,115 @@ body {
   cursor: pointer;
   animation: move 1.5s linear infinite;
 }
+.btn {
+  &__link {
+    width: 176px;
+    height: 74px;
+    padding: 5px 5px 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-primary;
+    font-family: $dmSans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.875rem;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: inset 0px 0px 10px 0px #0000006f;
+      transition: 0.3s linear;
+    }
+    &::after {
+      content: '';
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: $color-bg-green-lt url(../images/arrow-right.svg) no-repeat
+        center;
+      right: 0;
+      top: 50%;
+    }
+  }
+}
 
+.vegetable {
+  background: $color-bg-green-lt-op;
+
+  // .vegetable__img
+
+  &__inner-wrapper {
+    background-image: url(../images/fresh-melientha-suavis.png);
+    background-repeat: no-repeat;
+    background-position: right 50px bottom 0;
+    background-size: auto;
+    padding: 89px 0 143px 0;
+    // background: $color-bg-green-lt-op;
+    // background-color: #ccc;
+  }
+
+  &__img {
+    width: 600px;
+    // height: 600px;
+    & img {
+      // width: 600px;
+      // height: 600px;
+    }
+  }
+
+  // .vegetable__content
+
+  &__content {
+    width: 590px;
+  }
+
+  // .vegetable__title
+
+  &__title {
+    margin: 30px 0px 0px 0px;
+  }
+
+  // .vegetable__desc
+
+  &__desc {
+    padding: 20px 0px 50px 0px;
+  }
+
+  // .vegetable__link
+
+  &__link {
+    margin: 0;
+  }
+}
+.wrapper {
+  // .wrapper__inner-wrapper
+
+  &__inner-wrapper {
+  }
+
+  // .wrapper__wrapper
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+// .container {
+// }
+// .inner-title {
+// }
+// .inner-desc {
+// }
+// .btn {
+
+//   // .btn__link
+
+//   &__link {}
+// }
 
 @keyframes move {
   0% {

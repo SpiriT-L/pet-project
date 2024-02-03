@@ -12,6 +12,7 @@ $color-primary: #222222;
 $color-secondary: #555555;
 $color-black: #000000;
 $color-white: #ffffff;
+$color-subtitle: #333;
 
 // =============== color bacground  ===============
 $color-bg-green-lt: #09a66d;
@@ -23,7 +24,7 @@ $color-bg-mint: #f3fbf8;
   // margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  margin: 0 auto;
+  // margin: 0 auto;
 }
 a {
   color: inherit;
@@ -772,5 +773,120 @@ body {
       background: $color-bg-green-lt;
       border: 1px solid $color-bg-green-lt;
     }
+  }
+}
+
+.app {
+  padding: 150px 0px 140px 0px;
+
+  // .app__wrapper
+
+  &__wrapper {
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  // .app__img
+
+  &__img {
+    width: 265px;
+    animation: movImge 2s linear infinite;
+  }
+
+  // .app__content
+
+  &__content {
+    width: 663px;
+    height: 426px;
+  }
+
+  // .app__subtitle
+
+  &__subtitle {
+    display: block;
+    width: 170px;
+    padding: 11px 0;
+    text-align: center;
+    background: $color-bg-mint;
+    border-radius: 50px;
+    line-height: 18px;
+    color: $color-subtitle;
+    margin: 0px 0px 16px 0px;
+    & span {
+      margin: 0 0 0 0;
+    }
+  }
+
+  // .app__title
+
+  &__title {
+    margin: 0;
+  }
+
+  // .app__desc
+
+  &__desc {
+    width: 574px;
+    margin: 20px 88px 50px 0;
+  }
+
+  // .app__block
+
+  &__block {
+    display: flex;
+    justify-content: start;
+    // align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  // .app__link
+
+  &__link {
+    width: 104px;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    padding: 5px 0;
+    color: $color-white;
+    transition: 0.3s linear;
+    &:hover {
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.35);
+
+    }
+  }
+}
+
+.app-store {
+  background: $color-black url(../images/aple.svg) no-repeat left 12px center;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+
+  padding-left: 34px;
+  & span {
+    display: block;
+    margin-bottom: 3px;
+    letter-spacing: 0.7px;
+    font-size: 6px;
+    line-height: 5px;
+  }
+}
+.google-play {
+  background: $color-black url(../images/google.svg) no-repeat left 8px center;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+  padding-left: 32px;
+  & span {
+    display: block;
+    margin-bottom: 3px;
+    // letter-spacing: 1px;
+    font-size: 6px;
+    line-height: 7px;
+    text-transform: uppercase;
   }
 }

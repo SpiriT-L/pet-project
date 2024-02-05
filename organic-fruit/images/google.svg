@@ -1,0 +1,45 @@
+<svg width="17.780273" height="19.298706" viewBox="0 0 17.7803 19.2987" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient id="paint_linear_3_38_0" x1="9.113663" y1="1.181463" x2="-3.813148" y2="13.766465" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00A0FF"/>
+			<stop offset="0.010000" stop-color="#00A1FF"/>
+			<stop offset="0.260000" stop-color="#00BEFF"/>
+			<stop offset="0.510000" stop-color="#00D2FF"/>
+			<stop offset="0.760000" stop-color="#00DFFF"/>
+			<stop offset="1.000000" stop-color="#00E3FF"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_3_39_0" x1="18.381083" y1="9.648965" x2="-0.254168" y2="9.648965" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFE000"/>
+			<stop offset="0.410000" stop-color="#FFBD00"/>
+			<stop offset="0.780000" stop-color="#FFA500"/>
+			<stop offset="1.000000" stop-color="#FF9C00"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_3_40_0" x1="11.447811" y1="11.373923" x2="-6.085817" y2="28.436428" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FF3A44"/>
+			<stop offset="1.000000" stop-color="#C31162"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_3_41_0" x1="-2.056887" y1="-5.215676" x2="5.770072" y2="2.404326" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#32A071"/>
+			<stop offset="0.070000" stop-color="#2DA771"/>
+			<stop offset="0.480000" stop-color="#15CF74"/>
+			<stop offset="0.800000" stop-color="#06E775"/>
+			<stop offset="1.000000" stop-color="#00F076"/>
+		</linearGradient>
+	</defs>
+	<path d="M0.362305 0.303955C0.111206 0.59729 -0.015625 0.972778 0.00793457 1.354L0.00793457 17.944C-0.015625 18.3251 0.111206 18.7007 0.362305 18.994L0.416138 19.0465L9.96106 9.76147L9.96106 9.54395L0.416138 0.251465L0.362305 0.303955Z" fill="url(#paint_linear_3_38_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path d="M13.1195 12.859L9.96094 9.76147L9.96094 9.54395L13.1195 6.43896L13.1888 6.47644L16.9713 8.56897C18.0498 9.1615 18.0498 10.1365 16.9713 10.7365L13.2042 12.8214L13.1195 12.859Z" fill="url(#paint_linear_3_39_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path d="M13.2119 12.814L9.96094 9.64893L0.362183 18.9939C0.582031 19.182 0.862427 19.2896 1.15503 19.2977C1.44763 19.3059 1.73389 19.2145 1.9646 19.0389L13.2196 12.814L13.2119 12.814Z" fill="url(#paint_linear_3_40_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<path d="M13.2118 6.48438L1.95679 0.259277C1.72607 0.0838623 1.43982 -0.00769043 1.14722 0.000488281C0.854614 0.00866699 0.574219 0.116211 0.35437 0.304321L9.96094 9.64929L13.2118 6.48438Z" fill="url(#paint_linear_3_41_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+	<g opacity="0.200000">
+		<path d="M13.1195 12.7466L1.95691 18.9341C1.73438 19.0959 1.46423 19.1835 1.18652 19.1835C0.908813 19.1835 0.63855 19.0959 0.416138 18.9341L0.362183 18.9866L0.416138 19.0391C0.638062 19.2021 0.908447 19.2903 1.18652 19.2903C1.46448 19.2903 1.73499 19.2021 1.95691 19.0391L13.2119 12.8141L13.1195 12.7466Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g opacity="0.120000">
+		<path d="M0.362305 18.8889C0.111206 18.5956 -0.015625 18.2201 0.00793457 17.8389L0.00793457 17.9514C-0.015625 18.3325 0.111206 18.7081 0.362305 19.0015L0.416138 18.949L0.362305 18.8889ZM16.9714 10.6239L13.1196 12.7465L13.189 12.814L16.9714 10.7289C17.186 10.6307 17.3704 10.4792 17.5056 10.2897C17.6409 10.1 17.7223 9.87903 17.7418 9.64893C17.6985 9.85791 17.6066 10.0546 17.473 10.2235C17.3395 10.3926 17.1678 10.5295 16.9714 10.6239Z" fill="#000000" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<g opacity="0.250000">
+		<path d="M1.95679 0.36377L16.9713 8.67371C17.1677 8.76819 17.3392 8.90515 17.4728 9.0741C17.6063 9.24316 17.6982 9.4397 17.7416 9.6488C17.7222 9.4187 17.6406 9.19763 17.5054 9.00806C17.3701 8.81848 17.1859 8.66687 16.9713 8.56873L1.95679 0.258789C0.878174 -0.33374 0 0.161255 0 1.36121L0 1.47375C0.0230713 0.266235 0.885986 -0.22876 1.95679 0.36377Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
